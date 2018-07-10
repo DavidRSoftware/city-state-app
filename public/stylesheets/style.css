@@ -2,3 +2,11 @@ body {
   background-color: #ABD1D1!important;
   overflow-x: hidden;
 }
+
+text-black{
+  color: black!important;
+}
+
+background-black{
+  background-color: black!important;
+}

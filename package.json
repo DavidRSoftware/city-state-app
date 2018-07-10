@@ -1,5 +1,5 @@
 {
-  "name": "personal-website-bootstrap",
+  "name": "city-state-app",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
@@ -8,13 +8,14 @@
   "author": "DavidR",
   "license": "ISC",
   "dependencies": {
+    "@mysql/xdevapi": "^8.0.11",
+    "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
-    "mysql": "^2.15.0",
     "path": "^0.12.7"
   },
   "devDependencies": {},
-  "description": "Personal website developed using Bootstrap showcasing my programming experience",
+  "description": "A app used to retrieve the state where a city is located.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DavidRSoftware/davidrosen.com-bootstrap.git"
